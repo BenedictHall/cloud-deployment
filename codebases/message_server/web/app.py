@@ -36,6 +36,7 @@ def setup_database(url):
 
 # We run the two functions above
 POSTGRES_URL = get_database_url()
+
 setup_database(POSTGRES_URL)
 
 app = Flask(__name__)
